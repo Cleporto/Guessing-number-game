@@ -29,6 +29,7 @@ class Game:
             if answer == 'Y':
                 print('\nNew game starting...\n')
                 cls.score = 100
+                Game.difficulty_selector(Game)
 
                 t.sleep(1)
                 break
